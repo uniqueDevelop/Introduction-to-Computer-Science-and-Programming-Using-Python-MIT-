@@ -1,0 +1,13 @@
+# simple conditional
+# checks if the number is divisible by 2 or 3
+if x % 2 == 0:
+    if x % 3 == 0:
+        print ('Divisible by 2 and 3')
+    else:
+        print ('Divisible by 2 and not 3')
+elif x % 3 == 0:
+    print ('Divisible by 3 and not by 2)
+else:
+    print ('Neither divisible by 2 nor by 3')
+print ('Exit')
+   
