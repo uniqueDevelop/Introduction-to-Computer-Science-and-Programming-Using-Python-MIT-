@@ -1,0 +1,4 @@
+# Sum Up Values in Range from 7 (incl) to 10 (excl)
+mySum = 0
+for n in range(7,10):
+    mySum += i
