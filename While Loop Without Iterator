@@ -1,0 +1,7 @@
+# This program checks for if the input is "right" or "left"
+# It is the example of a while loop without the iterator
+
+n = input("You are lost in the woods. Go right or left? ")
+while n == "right":
+    n = input("You are going right. You are lost again. Go right or left? ")
+print("You are out of the woods.")
