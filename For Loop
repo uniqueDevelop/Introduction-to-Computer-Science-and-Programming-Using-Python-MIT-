@@ -1,0 +1,4 @@
+# This is the example of the for loop
+# Shortcut with for loop
+for n in range(5):
+    print(n)
