@@ -1,0 +1,8 @@
+# Simple range with step example
+# Sum up every second number in the range from 5 (including) to 11 (excluding):
+mySum = 0
+
+for i in range(5,11,2):
+    mySum += i
+    
+print(mySum)
