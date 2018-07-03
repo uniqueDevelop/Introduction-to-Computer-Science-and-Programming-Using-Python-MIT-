@@ -1,0 +1,6 @@
+# A simple while loop
+# Prints numbers from 0 to 4
+n = 0
+while(n < 5):
+    print(n)
+    n = n+1   
