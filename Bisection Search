@@ -1,0 +1,27 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jul 10 10:33:14 2018
+
+@author: elenachumakova
+"""
+
+# Bisection search
+# Compute square root of a number using bisection search
+x = 25
+epsilon = 0.01
+numGuesses = 0
+low = 1.0
+high = x
+ans = (high + low)/2.0
+
+while abs(ans**2 - x) >= epsilon:
+    print('low = ' + str(low) + ' high = ' + str(high) + ' ans = ' + str(ans))
+    numGuesses += 1
+    if ans**2 < x:
+        low = ans
+    else:
+        high = ans
+    ans = (high + low)/2.0
+print('numGuesses = ' + str(numGuesses))
+print(str(ans) + ' is close to square root of ' + str(x))
